@@ -1,1 +1,17 @@
-{"name":"bible-receipt-verifier-connectivity","version":"1.0.0","private":true,"scripts":{"start":"node server.cjs"},"engines":{"node":">=20"}}
+{
+  "name": "bible-receipt-verifier",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "express": "^5.1.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
